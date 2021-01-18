@@ -20,10 +20,24 @@ ul {
 }
 
 .container {
-	width: 1140px;
+	max-width: 1140px;
 	margin: 0 auto;
 }
 
+.title {
+	font-size: 42px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.subtitle {
+	font-size: 24px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+@import "block/buttons";
 @import "block/promo";
 @import "block/header";
-@import "block/buttons";
+
+
+@import "block/media";

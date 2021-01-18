@@ -1,0 +1,43 @@
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__official {
+            display: none;
+        }
+        &__contacts {
+            font-size: 14px;
+        }
+        &__logo {
+            padding-right: 20px;
+        }
+    }
+    .button {
+        width: 122px;
+        font-size: 10px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .subtitle {
+        font-size: 12px;
+    }
+    .promo {
+        height: 490px;    
+        &_title {
+            padding-top: 50px;
+        }
+        &__icons {
+            width: 300px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        &_btn {
+            width: 200px;
+            font-size: 12px;
+            margin-top: 50px;
+        }
+    }
+}

@@ -1,7 +1,12 @@
 .header {    
     display: flex;
     justify-content: space-between;
-    padding: 21px;
+    &__logo {
+        max-width: 251px;
+        img {
+            width: 100%;
+        }
+    }
     &__official {
         color: $lait-color;
         font-size: 12px;
