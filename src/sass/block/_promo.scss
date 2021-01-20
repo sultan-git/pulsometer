@@ -1,7 +1,7 @@
 .promo {
     height: 650px;
     padding: 20px;
-    color: #ffffff;    
+    color: $lite-color;    
     text-align: right;    
     background: url("../img/bg/promo-bg.jpg") center (center/cover) no-repeat;
     &_title {
@@ -9,6 +9,7 @@
     }
     &_subtitle {
         padding-top: 17px;
+        text-transform: uppercase;
     }
     &__wrapper {
         display: flex;

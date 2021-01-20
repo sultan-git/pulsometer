@@ -1,0 +1,24 @@
+.consultation {
+    min-height: 680px;
+    background: url("../img/bg/consultation-bg.png") center (center/cover) no-repeat;
+    padding-top: 100px;    
+    &_btn {
+        width: 300px;
+        height: 55px;
+        border-radius: 5px;
+        background-color: $main-color;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    &_subtitle {
+        font-size: 20px;
+        color: $lite-color;
+        margin-top: 80px;
+        line-height: 24px;
+    }
+    &_title {
+        color: $lite-color;
+        font-size: 36px;
+    }
+    
+}
